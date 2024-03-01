@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Название книги: " + one.getBookName() + ", автор: " + bookOne.getName() + " " + bookOne.getSurname()+ ", год издания " + one.getPublicationYear());
         System.out.println();
         System.out.println("Название книги: " + two.getBookName() + ", автор: " + bookTwo.getName() + " " + bookTwo.getSurname()+ ", год издания " + two.getPublicationYear());
-        two.setPublicationYear(2022);
+        two.setPublicationYear(2021);
         System.out.println("Новый год издания " + two.getPublicationYear());
     }
 }
